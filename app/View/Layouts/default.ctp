@@ -47,6 +47,7 @@ if(AuthComponent::user('role') == 'admin') {
 		<?php echo $title_for_layout; ?>
 	</title>
 
+	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-icon-72x72.png">
