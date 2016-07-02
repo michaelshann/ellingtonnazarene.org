@@ -1,0 +1,75 @@
+
+# Created by https://www.gitignore.io/api/cakephp,images,vim
+
+### CakePHP ###
+# CakePHP 3
+
+/vendor/*
+/config/app.php
+
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+/tmp/sessions/*
+!/tmp/sessions/empty
+/tmp/tests/*
+!/tmp/tests/empty
+
+/logs/*
+!/logs/empty
+
+# CakePHP 2
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
+
+
+### Images ###
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.gif
+*.GIF
+*.raw
+*.png
+*.PNG
+*.tiff
+*.TIFF
+*.tif
+*.TIF
+*.svg
+*.pdf
+*.bmp
+*.ico
+*.ICO
+
+### AUDIO ###
+*.mp3
+*.MP3
+*.wav
+*.WAV
+*.aac
+
+# Archives
+*.tar
+*.TAR
+*.gz
+*.GZ
+
+### Vim ###
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
