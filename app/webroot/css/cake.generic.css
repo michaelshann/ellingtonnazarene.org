@@ -91,7 +91,7 @@ iframe {
 	padding: 40px;
 	padding-top: 80px;
 	margin: 0;
-	
+
 	font-weight: 400;
 	color: #2c6877;
 	font-family: 'Gill Sans','lucida grande', helvetica, arial, sans-serif;
@@ -99,7 +99,7 @@ iframe {
 }
 
 .userview td {
-	
+
 	font-weight: 400;
 	color: #2c6877;
 	font-family: 'Gill Sans','lucida grande', helvetica, arial, sans-serif;
@@ -160,6 +160,7 @@ iframe {
 	text-align: center;
 	margin: 0 auto;
 	max-width: 270px;
+	max-height: 30px;
 }
 
 
@@ -230,7 +231,7 @@ iframe {
 }
 .family_view_right {
 	clear: none;
-	float: left;	
+	float: left;
 }
 .users_table {
 	clear: both;
@@ -238,8 +239,8 @@ iframe {
 	padding: 20px;
 }
 
-.users_table table {	
-	
+.users_table table {
+
 }
 
 .people_table {
@@ -325,7 +326,7 @@ iframe {
 	padding: 0px;
 	margin: 20px;
 	box-shadow: 0px 0px 12px black;
-	
+
 }
 
 .static_content h1 {
@@ -414,7 +415,7 @@ iframe {
 
 .directory_index {
 	background: #ebebeb;
-	padding: 80px 10% 0 10%; 
+	padding: 80px 10% 0 10%;
 	margin: 0;
 /*	margin: 0 auto; */
 	text-align: center;
@@ -438,7 +439,7 @@ iframe {
 	font-style: italic;
 	font-weight: 700;
 	font-family: 'Alegreya Sans SC', sans-serif;
-	
+
 }
 .directory_index h1 {
 	padding-top: 20px;
@@ -485,7 +486,7 @@ iframe {
 }
 .family_item a {
 	display: block;
-	clear: both;	
+	clear: both;
 }
 
 #front-content {
@@ -592,7 +593,7 @@ iframe {
 	height: 50px;
 	width: 100%;
 	margin: 0;
-	border-bottom: 10px solid #ebebeb; 
+	border-bottom: 10px solid #ebebeb;
 	/*display:inline-block;*/
 }
 
@@ -646,7 +647,7 @@ iframe {
 	margin: 0;
 	background: top center;
 	/*background-image: url("/img/sliderbackground.jpg");*/
-	background: #000; 
+	background: #000;
 	/* background: #3e3e3e; */
 	/* overflow: auto; */
 	height: 560px;
@@ -665,7 +666,7 @@ iframe {
 /* BUTTON LINKS ARE FOR LINKS THAT LOOK LIKE BUTTONS GREEN BACKGROUND */
 .buttonlinks {
 	clear: none;
-	text-align: center; 
+	text-align: center;
 	font-size: 110%;
 	/*color: #fff; */
 }
@@ -690,7 +691,7 @@ iframe {
 .button {
 	padding: 5px;
 	margin: 10px;
-} 
+}
 
 /* FOR BUTTON LINKS YOU WANT LEFT ALIGNED LIKE IN DIRECTORY FAMILY VIEW THE ADD PERSON LINK */
 .leftalign {
@@ -887,7 +888,7 @@ table td.actions a {
 	color: #ccc;
 	margin-top: 1em;
 	clear:both;
-	
+
 }
 
 .pagenumbers {
@@ -996,7 +997,7 @@ table td.actions a {
 	padding: 10px;
 	text-decoration: none;
 	display: inline-block
-	
+
 }
 .paging > span {
 	display: inline-block;
@@ -1060,7 +1061,7 @@ dd {
 	margin-bottom: 0;
 	padding-bottom: 0;
 	padding-top: 80px;
-	
+
 }
 
 .users_form fieldset{
