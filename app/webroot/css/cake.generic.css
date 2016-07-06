@@ -163,6 +163,10 @@ iframe {
 	max-height: 30px;
 }
 
+audio {
+    width: 270px;
+    height: 30px;
+}
 
 .audio_item {
 	padding: 20px;
