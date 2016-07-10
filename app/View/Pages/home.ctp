@@ -12,15 +12,20 @@ $(document).ready(function() {
 
 </script>
 
-
 <div id="slider_fullwidth">
 		<div id="slideshow" class="slideshow" style="width: 100%; position: relative; height: 560px;">
 
 		<?php
-
+//******************  SLIDER ***********************//
 			// WELCOME
   			echo  $this->Html->link(
   					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/welcome.png);')),
+  					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
+  				);
+
+            // SOFTBALL
+  			echo  $this->Html->link(
+  					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/softball.jpg);')),
   					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
   				);
 
@@ -31,6 +36,12 @@ $(document).ready(function() {
   					array('controller' => 'AudioSermons', 'action' => 'index'), array('escape' => false, 'style' => 'height: 560px;')
   				);
 
+            // BOARD METING MONDAY 7PM
+  			echo  $this->Html->link(
+  					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/board_meeting_web_monday7.jpg);')),
+  					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
+  				);
+            
   			// CHILDRENS CHRISTMAS
   			//echo  $this->Html->link(
   			//		$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/childrenschirstmas.jpg);')),
@@ -49,6 +60,12 @@ $(document).ready(function() {
   			   	$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/directory.jpg);')),
   			   	array('controller' => 'DirectoryFamilies', 'action' => 'index'), array('escape' => false, 'style' => 'height: 560px;')
   			   );
+
+            // Disctirct Mens Retreat
+  			echo  $this->Html->link(
+  					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/district_mens_retreat.jpg);')),
+  					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
+            );
 
   			// EASTER
   		//	echo  $this->Html->link(
