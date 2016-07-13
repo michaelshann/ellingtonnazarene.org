@@ -23,11 +23,11 @@ $(document).ready(function() {
   					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
   				);
 
-            // SOFTBALL
-  			echo  $this->Html->link(
-  					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/softball.jpg);')),
-  					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
-  				);
+        //     // SOFTBALL
+  			// echo  $this->Html->link(
+  			// 		$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/softball.jpg);')),
+  			// 		array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
+  			// 	);
 
   			// AUDIO SERMONS
   			echo  $this->Html->link(
@@ -36,12 +36,12 @@ $(document).ready(function() {
   					array('controller' => 'AudioSermons', 'action' => 'index'), array('escape' => false, 'style' => 'height: 560px;')
   				);
 
-            // BOARD METING MONDAY 7PM
-  			echo  $this->Html->link(
-  					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/board_meeting_web_monday7.jpg);')),
-  					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
-  				);
-            
+        //     // BOARD METING MONDAY 7PM
+  			// echo  $this->Html->link(
+  			// 		$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/board_meeting_web_monday7.jpg);')),
+  			// 		array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
+  			// 	);
+
   			// CHILDRENS CHRISTMAS
   			//echo  $this->Html->link(
   			//		$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/childrenschirstmas.jpg);')),
