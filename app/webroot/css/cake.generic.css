@@ -589,7 +589,8 @@ audio {
 	top: 0;
 	left: 0;
 	z-index: 999;
-	padding: 10px 20px;
+	padding: 0px;
+	padding-bottom: 20px;
 	padding-right: 0px;
 	padding-left: 0px;
 	background:  #fff;
@@ -625,10 +626,11 @@ audio {
 
 #logo_div {
 	float: left;
-	width: 600px;
+	width: 560px;
+	height: 70px;
 	padding: 0;
-	height: 50px;
-	background: none;
+	background-image: url(/img/logo.png);
+	background-repeat: no-repeat;
 	opacity: 1;
 }
 
