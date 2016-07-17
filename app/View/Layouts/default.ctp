@@ -95,9 +95,13 @@ if(AuthComponent::user('role') == 'admin') {
 <body>
 	<div id="container">
 		<div id="header">
-			<div id="logo_div">
-					&nbsp;
-			</div>
+			<?php
+			echo  $this->Html->link(
+					$this->Html->div("logo_div", "&nbsp;"),
+					array('controller' => 'pages', 'action' => 'display', 'home')
+					, array('escape' => false)
+				);
+			?>
 			<div id="menu_div">
 				<?php echo $this->element('menubar'); ?>
 			</div>
