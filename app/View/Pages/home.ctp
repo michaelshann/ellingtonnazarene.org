@@ -23,6 +23,12 @@ $(document).ready(function() {
   					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
   				);
 
+			// Revival
+  			echo  $this->Html->link(
+  					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/revival-2016.png);')),
+  					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
+  				);
+
         //     // SOFTBALL
   			// echo  $this->Html->link(
   			// 		$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/softball.jpg);')),
