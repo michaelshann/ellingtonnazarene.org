@@ -24,10 +24,10 @@ $(document).ready(function() {
   				);
 
 			// Revival
-  			echo  $this->Html->link(
-  					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/revival-2016.png);')),
-  					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
-  				);
+ // 			echo  $this->Html->link(
+ // 					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/revival-2016.png);')),
+ // 					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
+  //				);
 
         //     // SOFTBALL
   			// echo  $this->Html->link(
@@ -74,10 +74,10 @@ $(document).ready(function() {
   			   );
 
             // Disctirct Mens Retreat
-  			echo  $this->Html->link(
-  					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/district_mens_retreat.jpg);')),
-  					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
-            );
+  //			echo  $this->Html->link(
+  //					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/district_mens_retreat.jpg);')),
+  //					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
+   //         );
 
   			// EASTER
   		//	echo  $this->Html->link(
