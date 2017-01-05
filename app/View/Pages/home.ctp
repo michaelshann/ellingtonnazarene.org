@@ -86,10 +86,10 @@ $(document).ready(function() {
   		//		);
 
   			// CRAFT FAIR
-  			//echo  $this->Html->link(
-			//	$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/country_christmas.jpg);')),
-			//	array('controller' => 'pages', 'action' => 'display', 'craftfair'), array('escape' => false, 'style' => 'height: 560px;')
-			//);
+  			echo  $this->Html->link(
+				$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/country_christmas.jpg);')),
+			    array('controller' => 'pages', 'action' => 'display', 'craftfair'), array('escape' => false, 'style' => 'height: 560px;')
+			);
 
   			// FAMILY FUN DAY
 			//echo  $this->Html->link(
