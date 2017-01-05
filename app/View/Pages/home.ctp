@@ -133,18 +133,17 @@ $(document).ready(function() {
 			array('controller' => 'AudioSermons', 'action' => 'index'), array('escape' => false));
 
 		// RIGHT TRIBLOCK   -----------------------------------------------------------------------------//
-		// Wild Game Dinner
-		//$right_text = "<h3>Easter Services</h3>
-		//	As this Easter week approaches we would love for you to celebrate with us.  Sunday we will be having our sunrise service at 7:30 with breakfast to follow, with a easter egg hunt for the kids then
-		//	the normal Sunday Morning services.";
+		 //Wild Game Dinner
+		$right_text = "<h3>Wild Game Dinner</h3>
+			The Wild Game Dinner with guest speaker Ty Colling is coming up fast, March 25, 2017. Get your tickets soon before the price goes up on March 1.";
 
 		// Wednesday Nights
-		$right_text = "<h3>Wednesday Night Services</h3>
-			Join us on Wednesday Nights here at 6:30 for our weekly prayer meeting";
-
+		//$right_text = "<h3>Wednesday Night Services</h3>
+		//	Join us on Wednesday Nights here at 6:30 for our weekly prayer meeting";
+//
 		echo $this->Html->link(
 			$this->Html->div('right-tri-block', $right_text),
-			array('controller' => 'pages', 'action' => 'display', 'ourservices'), array('escape' => false));
+			array('controller' => 'pages', 'action' => 'display', 'wildgame'), array('escape' => false));
 
 
 	?>

@@ -12,7 +12,7 @@
 
 <div class='static_content'>
 
-	<h1>Saturday March 28, 2015</h1>
+	<h1>Saturday March 25, 2017</h1>
 	<?php echo $this->Html->image('/img/wgd.jpg', array('alt' => 'Wild Game Dinner', 'width' => '450')); ?>
 
 <div class='right_col'>
