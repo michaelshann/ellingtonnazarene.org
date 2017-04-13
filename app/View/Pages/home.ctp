@@ -150,7 +150,7 @@ $(document).ready(function() {
 
 		// Easter Services
 		$right_text = "<h3>Easter Services</h3>
-				Join us to celebrate Easter with sunrise services starting at 7:30 am and followed by breakfast, then Sunday School at 10 and worship at 11."
+				Join us to celebrate Easter with sunrise services starting at 7:30 am and followed by breakfast, then Sunday School at 10 and worship at 11.";
 
 		echo $this->Html->link(
 			$this->Html->div('right-tri-block', $right_text),
