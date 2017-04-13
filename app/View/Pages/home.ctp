@@ -141,13 +141,17 @@ $(document).ready(function() {
 
 		// RIGHT TRIBLOCK   -----------------------------------------------------------------------------//
 		 //Wild Game Dinner
-		$right_text = "<h3>Wild Game Dinner</h3>
-			The Wild Game Dinner with guest speaker Ty Colling is coming up fast, March 25, 2017. Get your tickets soon before the price goes up on March 1.";
+		//$right_text = "<h3>Wild Game Dinner</h3>
+		//	The Wild Game Dinner with guest speaker Ty Colling is coming up fast, March 25, 2017. Get your tickets soon before the price goes up on March 1.";
 
 		// Wednesday Nights
 		//$right_text = "<h3>Wednesday Night Services</h3>
 		//	Join us on Wednesday Nights here at 6:30 for our weekly prayer meeting";
-//
+
+		// Easter Services
+		$right_text = "<h3>Easter Services</h3>
+				Join us to celebrate Easter with sunrise services starting at 7:30 am and followed by breakfast, then Sunday School at 10 and worship at 11."
+
 		echo $this->Html->link(
 			$this->Html->div('right-tri-block', $right_text),
 			array('controller' => 'pages', 'action' => 'display', 'wildgame'), array('escape' => false));
