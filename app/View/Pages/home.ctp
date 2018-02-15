@@ -29,10 +29,10 @@ $(document).ready(function() {
  // 					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
   //				);
 
-        //     // SOFTBALL
-  			// echo  $this->Html->link(
-  			// 		$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/softball.jpg);')),
-  			// 		array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
+             // SOFTBALL
+  			 //echo  $this->Html->link(
+  			 //		$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/softball.jpg);')),
+  			 //		array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
   			// 	);
 
   			// AUDIO SERMONS
@@ -80,16 +80,16 @@ $(document).ready(function() {
    //         );
 
   			// EASTER
-  			echo  $this->Html->link(
-  					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/easter.jpg);')),
-  					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
-  				);
+//  			echo  $this->Html->link(
+ // 					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/easter.jpg);')),
+  //					array('controller' => 'pages', 'action' => 'display', 'home'), array('escape' => false, 'style' => 'height: 560px;')
+  //				);
 
 			  // AG DAY
-	  			echo  $this->Html->link(
-					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/ag_day_web.jpg);')),
-				   array('controller' => 'pages', 'action' => 'display', 'agday'), array('escape' => false, 'style' => 'height: 560px;')
-				);
+//	  			echo  $this->Html->link(
+//					$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/ag_day_web.jpg);')),
+//				   array('controller' => 'pages', 'action' => 'display', 'agday'), array('escape' => false, 'style' => 'height: 560px;')
+//				);
 
 
   			// CRAFT FAIR
@@ -145,16 +145,24 @@ $(document).ready(function() {
 		//	The Wild Game Dinner with guest speaker Ty Colling is coming up fast, March 25, 2017. Get your tickets soon before the price goes up on March 1.";
 
 		// Wednesday Nights
-		//$right_text = "<h3>Wednesday Night Services</h3>
-		//	Join us on Wednesday Nights here at 6:30 for our weekly prayer meeting";
+//		$right_text = "<h3>Wednesday Night Services</h3>
+//			Join us on Wednesday Nights here at 6:30 for our weekly prayer meeting";
+            //
+        // Serivce Times
+            $right_text = "<h3>Service Times</h3>
+                    Sunday Worship 11am</p>
+                    Sunday School 10am</p>
+                    Sunday Evening 6pm</p>
+                    ";
+
 
 		// Easter Services
-		$right_text = "<h3>Easter Services</h3>
-				Join us to celebrate Easter with sunrise services starting at 7:30 am and followed by breakfast, then Sunday School at 10 and worship at 11.";
+		//$right_text = "<h3>Easter Services</h3>
+		//		Join us to celebrate Easter with sunrise services starting at 7:30 am and followed by breakfast, then Sunday School at 10 and worship at 11.";
 
 		echo $this->Html->link(
 			$this->Html->div('right-tri-block', $right_text),
-			array('controller' => 'pages', 'action' => 'display', 'wildgame'), array('escape' => false));
+			array('controller' => 'pages', 'action' => 'display', 'ourservices'), array('escape' => false));
 
 
 	?>
