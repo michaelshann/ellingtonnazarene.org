@@ -55,10 +55,10 @@ $(document).ready(function() {
   			//	);
 
   			// Wild Game Dinner
-  			// echo  $this->Html->link(
-  			//    	$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/wgd.jpg);')),
-  			//    	array('controller' => 'pages', 'action' => 'display', 'wildgame'), array('escape' => false, 'style' => 'height: 560px;')
-  			//    );
+  			 echo  $this->Html->link(
+  			    	$this->Html->div("slide", "&nbsp;", array('style' => 'width: 100%; height: 560px; background-image: url(/img/slider/wgd.jpg);')),
+  			    	array('controller' => 'pages', 'action' => 'display', 'wildgame'), array('escape' => false, 'style' => 'height: 560px;')
+  			    );
 
 
   			// VBS
