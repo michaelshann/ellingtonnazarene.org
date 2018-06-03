@@ -3,7 +3,11 @@
 		Our Pastor
 		</h1>
 		<h3>
-            We are currently searching for a pastor, please be in prayer for us and our future pastor.
+            Welcome our new Pastor David Boulton and his family.
         </h3>
+        <h4>
+            You can email him at <a href="mailto:pastordavid@ellingtonnazarene.org">pastordavid@ellingtonnazarene.org</a>
+            or call at 989-673-3474 if you have any needs or questions.
+        </h4>
 	</div>
 </div>

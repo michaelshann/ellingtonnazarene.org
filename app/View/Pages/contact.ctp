@@ -8,6 +8,8 @@
 	<h2>Phone</h2>
 	<p>(989) 673-3474</p>
 	<h2>Email</h2>
-	<p><a href="mailto:secretary@ellingtonnazarene.org">secretary@ellingtonnazarene.org</a></p>
+    <p>You can reach our Pastor at <a href="mailto:pastordavid@ellingtonnazarene.org">pastordavid@ellingtonnazarene.org</a></p>
+	<p>You can reach our secretary at <a href="mailto:secretary@ellingtonnazarene.org">secretary@ellingtonnazarene.org</a></p>
+
 	
 </div>
